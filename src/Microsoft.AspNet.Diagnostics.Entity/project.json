@@ -1,12 +1,12 @@
 {
-    "version": "7.0.0-*",
+    "version": "7.0.0-beta2",
     "description":  "ASP.NET 5 Middleware for Entity Framework error pages.",
     "compilationOptions": {
         "warningsAsErrors": true
     },
     "dependencies": {
-        "Microsoft.AspNet.Diagnostics": "1.0.0-*",
-        "EntityFramework.Migrations": "7.0.0-*"
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta2",
+        "EntityFramework.Migrations": "7.0.0-beta2"
     },
     "code": [ "**\\*.cs", "..\\Shared\\*.cs" ],
     "frameworks": {
@@ -17,7 +17,7 @@
         },
         "aspnetcore50": {
             "dependencies": {
-                "System.Threading.ExecutionContext": "4.0.0-beta-*"
+                "System.Threading.ExecutionContext": "4.0.0-beta-22416"
             }
         }
     }

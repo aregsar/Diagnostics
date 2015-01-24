@@ -3,8 +3,8 @@
         "warningsAsErrors": true
     },
     "dependencies": {
-        "Microsoft.AspNet.Diagnostics.Elm": "1.0.0-*",
-        "Xunit.KRunner": "1.0.0-*"
+        "Microsoft.AspNet.Diagnostics.Elm": "1.0.0-beta2",
+        "xunit.runner.kre": "1.0.0-*"
     },
 
     "frameworks": {
@@ -17,6 +17,6 @@
         }
     },
     "commands": {
-        "test": "Xunit.KRunner"
+        "test": "xunit.runner.kre"
     }
 }

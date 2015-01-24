@@ -1,16 +1,16 @@
 {
-    "version": "1.0.0-*",
+    "version": "1.0.0-beta2",
     "description": "ASP.NET 5 Middleware for error handling, error pages, and diagnostics information.",
     "dependencies": {
-        "Microsoft.AspNet.PipelineCore": "1.0.0-*",
-        "Microsoft.AspNet.RequestContainer": "1.0.0-*",
-        "Microsoft.Framework.Runtime.Interfaces": { "version": "1.0.0-*", "type": "build" }
+        "Microsoft.AspNet.PipelineCore": "1.0.0-beta2",
+        "Microsoft.AspNet.RequestContainer": "1.0.0-beta2",
+        "Microsoft.Framework.Runtime.Interfaces": { "version": "1.0.0-beta2", "type": "build" }
     },
     "frameworks": {
         "aspnet50": { },
         "aspnetcore50": {
             "dependencies": {
-                "System.Reflection.Extensions": "4.0.0-beta-*"
+                "System.Reflection.Extensions": "4.0.0-beta-22416"
             }
         }
     }
